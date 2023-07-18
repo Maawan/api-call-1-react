@@ -5,7 +5,7 @@ function Card({data}){
     return(
     
     <div className="container">
-    <img src={data[0]?.picture.medium} className="logo" alt=""/>
+    <img src={data[0]?.picture.large} className="logo" alt=""/>
     <div className="name">
         <span>{data[0]?.name.title !== undefined ? data[0]?.name.title + ". " + data[0]?.name.first + " " + data[0]?.name.last : ""}</span>
         {console.log(data.gender)}
