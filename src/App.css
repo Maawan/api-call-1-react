@@ -37,6 +37,7 @@ body{
     display: block;
     outline: 4px solid #124e3a;
     transition: all 1s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 9.2), 0 6px 20px 0 rgba(0, 0, 0, 0.89);
 }
 hr{
     border: 1px solid #124e3a;
